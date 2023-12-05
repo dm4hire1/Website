@@ -1,0 +1,179 @@
+.photo{
+  position: absolute;
+  left: 1030px;
+  top: -160px;
+}
+#photosize{
+  width:600px;
+  height:600px;
+}
+
+
+
+/* Above is the main photo that goes in the 
+middle
+
+
+Any thing under is going to be part information */
+
+
+/*this info welcome white and black is the title on the left side */
+  #info-welcome-white{
+  position:absolute;                     /* font stuff */
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  line-height: 120px;
+  font-size: 150px;                      /*font stuff */
+  left: 40px;                  /*moving font stuff*/
+  bottom:7px;
+  top:58px;                   /*moving font stuff*/
+  text-shadow: 5px 1px 15px white;
+}
+  #info-welcome-black{
+  position:absolute;                     /* font stuff */
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  line-height: 120px;
+  font-size: 150px;                      /*font stuff */
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  left: 30px;                  /*moving font stuff*/
+  bottom:10px;
+  top: 49px;                   /*moving font stuff*/
+}
+
+
+/*shapes area*/
+  #block{
+  position:absolute;
+  left: -10px;
+  top: -1000px;
+  width: 200px;
+  height: 500%;
+  }
+  #mainBlock{
+  position:absolute;
+  left: 256px;
+  top: 500px;
+  width: 2200px;
+  height: 745px;
+  }
+  #arrow{
+  position: absolute;
+  left: 285px;
+  top: 180px;
+  width: 627px;
+  height: 100px;
+
+  }
+  #arrow2{
+  transform: rotate(180deg);
+  position: absolute;
+  left: 1710px;
+  top: 130px;
+  width: 500px;
+  height: 100px;
+
+  }
+  #arrow3{
+  transform: rotate(180deg);
+  position: absolute;
+  left: 1710px;
+  top: 250px;
+  width: 500px;
+  height: 100px;
+
+  }
+/* This will be for the text inside of the box only */
+
+  .main-text{
+font-family: Arial, Helvetica, sans-serif;
+  }
+
+                              /*THIS IS MY NAME*/
+  #Name{
+  font-weight:bold;
+  font-size:72px;
+  color: white;
+  position:absolute;
+  left:370px;
+  top:150px;
+  }
+                                  /*THIS IS MY BIRTH*/
+  #birth{
+  font-weight:bold;
+  font-size:72px;
+  color: white;
+  position:absolute;
+  left:1750px;
+  top:80px;
+  }
+                                      /*THIS IS MY STREET*/
+  #st{
+  font-weight:bold;
+  font-size:72px;
+  color: white;
+  position:absolute;
+  left:1750px;
+  top:200px;
+  }
+  #Work{
+  font-weight:bold;
+  font-size:30px;
+  color: white;
+  position:absolute;
+  left:300px;
+  top:520px;
+  
+  }
+  #work-list{
+  font-weight:bold;
+  font-size:30px;
+  color: white;
+  position:absolute;
+  left:390px;
+  top:560px;
+  }
+  #WhyHire{
+  font-weight:bold;
+  font-size:30px;
+  color: white;
+  position:absolute;
+  left:300px;
+  top:700px;
+  }
+  #HireList{
+  font-weight:bold;
+  font-size:28px;
+  color: white;
+  position:absolute;
+  left:390px;
+  top:739px;
+  }
+  #background{
+  font-weight:bold;
+  font-size:30px;
+  color: white;
+  position:absolute;
+  left:300px;
+  top:960px;
+  
+  }
+  #background-list{
+  font-weight:bold;
+  font-size:28px;
+  color: white;
+  position:absolute;
+  left:390px;
+  top:1000px;
+  }
+  #alert{
+  font-weight:bold;
+  font-size:30px;
+  color: red;
+  position:absolute;
+  left:700px;
+  top:1177px;
+  
+  }
